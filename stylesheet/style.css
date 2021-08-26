@@ -173,13 +173,11 @@ hr {
 .image-one img {
     width: 100%;
     display: inline-block;
-    height: 500px;
 }
 .standard{
     width: 45%;
     margin-left: 30px;
     display: inline-block;
-    height: 300px;
     vertical-align: top;
     text-align: left;
 }
@@ -190,11 +188,11 @@ hr {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 30px;
     color: blue;
 }
 p {
-    font-size: 35px;
+    font-size: 16px;
 }
 button {
     background-color: green;
