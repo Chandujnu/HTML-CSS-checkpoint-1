@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -56,14 +56,15 @@ body {
     margin-bottom: 150px;
 }
 header {
-    width: 100%;
     background-color: darkblue;
-    margin: 0 auto;
+    width: 100%;
     text-align: center;
     margin-bottom: 20px;
     padding: 20px 0px;
     font-size: 30px;
     word-spacing: 15px;
+    text-decoration: none;
+    font-weight: bold;
 
 }
 .blog {
@@ -103,46 +104,30 @@ h2 {
 .container1 {
     text-align: center;
     margin-top: 50px;
+    width: 100%;
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin: 0 16px;
 }
 .circle1 {
-    width: 15px;
-    height: 15px;
-    background-color: turquoise;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px ;
+    background-color:turquoise;
+    
 }
 .circle2 {
-    width: 15px;
-    height: 15px;
     background-color: indigo;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px ;
 }
 .circle3 {
-    width: 15px;
-    height: 15px;
     background-color: black;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px ;
+    
 }
 .circle4 {
-    width: 15px;
-    height: 15px;
     background-color: rgb(19, 182, 128);
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px ;
-}
-.position {
-    margin: 0 16px;
-    display: inline-block;
 }
 hr {
     margin: 60px 60px;
@@ -153,6 +138,7 @@ hr {
     border: 2px solid grey;
     margin: 25px auto;
     font-size: 0;
+    display: inline-block;
 }
 .child-box {
     width: 200px;
@@ -161,18 +147,57 @@ hr {
     background-color: grey;
     display: inline-block;
 }
-.container3 {
-    width: 660px;
-    border: 2px solid grey;
-    margin: 25px auto;
-    font-size: 0;
-}
-.child-box2 {
-    width: 200px;
-    height: 180px;
-    margin: 10px;
+.child2 {
     background-color: grey;
     display: inline-block;
     border: 2px solid black;
     box-sizing: border-box;
+}
+
+
+.container-blog{
+    width: 100%;
+    margin: 20px 10px 20px 60px ;
+ }
+ .blog2 {
+    color: green;
+ }
+ .home2 {
+     color: white;
+ }
+ .image-one{
+    display: inline-block;
+    width: 45%;
+    margin-right: 30px;
+}
+.image-one img {
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+}
+.standard{
+    width: 45%;
+    margin-left: 30px;
+    display: inline-block;
+    height: 300px;
+    vertical-align: bottom;
+}
+.standard a{
+    display: inline-block;
+    color: green;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 35px;
+    color: blue;
+}
+p {
+    font-size: 25px;
+}
+button {
+    background-color: green;
+    width: 120px;
+    height: 40px;
+    border-radius: 30%;
 }
